@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginadminActivity">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView4"
+        android:textColor="@color/black"
+        android:text="Admin Login"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_above="@+id/cardview1"
+        android:layout_marginBottom="15dp"
+        app:srcCompat="@drawable/klogotrans" />
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/cardview2"
+        android:background="@color/black"
+        app:cardBackgroundColor="@color/black"
+        android:layout_marginBottom="15dp"
+        app:cardCornerRadius="19dp"
+        app:cardElevation="6dp">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="8dp"
+            android:textColorHint="@color/White"
+            app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textuname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textColor="@color/White"
+                android:drawableLeft="@drawable/ic_action_user"
+                android:hint="Mobile Number"
+                android:inputType="number"/>
+        </android.support.design.widget.TextInputLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/black"
+        app:cardBackgroundColor="@color/black"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="19dp"
+        app:cardElevation="6dp">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="8dp"
+            android:textColorHint="@color/White"
+            app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textColor="@color/White"
+                android:drawableLeft="@drawable/ic_action_pass"
+                android:hint="Password"
+                android:inputType="textPassword" />
+        </android.support.design.widget.TextInputLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/cardview1"
+        android:layout_below="@+id/cardview2"
+        android:text="Show"
+        android:textSize="18sp"
+        android:textColor="#080808"
+        android:buttonTint="#E5226C"
+        android:textStyle="bold"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardview2"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="#000000"
+        app:cardBackgroundColor="#E5226C"
+        app:cardCornerRadius="19dp"
+        app:cardElevation="6dp">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Login"
+            android:textAlignment="center"
+            android:textColor="#faf9f9"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

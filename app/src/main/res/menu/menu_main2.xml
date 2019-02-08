@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="example.javatpoint.com.optionmenu.MainActivity">
+
+    <item
+        android:id="@+id/action_notification1"
+        android:icon="@drawable/ic_action_menus"
+        android:title="action_notification"
+        app:showAsAction="always">
+        <menu>
+            <item  android:id="@+id/share"
+                android:title="Share"
+                android:icon="@drawable/ic_action_share"/>
+            <item  android:id="@+id/profile"
+                android:title="Profile Edit"
+                android:icon="@drawable/ic_action_person"/>
+            <item  android:id="@+id/aboutus"
+                android:title="About us"
+                android:icon="@drawable/ic_action_info"/>
+            <item  android:id="@+id/contactus"
+                android:title="Privacy Policy"
+                android:icon="@drawable/ic_action_contact"/>
+            <item  android:id="@+id/provd"
+                android:title="Provider"
+                android:icon="@drawable/ic_action_person"
+                app:showAsAction="withText"/>
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_notification1"
+        android:icon="@drawable/ic_action_menus"
+        android:title="action_notification"
+        app:showAsAction="always">
+        <menu>
+            <item  android:id="@+id/profile"
+                android:title="Profile Edit"
+                android:icon="@drawable/ic_action_person"/>
+            <item  android:id="@+id/logout"
+                android:title="Log out"
+                android:icon="@drawable/ic_action_logout"
+                app:showAsAction="withText"/>
+
+        </menu>
+    </item>
+
+</menu>

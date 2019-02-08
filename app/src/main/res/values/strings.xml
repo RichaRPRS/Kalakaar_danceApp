@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">The Kalakaar</string>
+
+    <string name="signup_text">Sign up for posting Adds</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="post_description">Write About Your Post \ne.g Date, About</string>
+
+    <string name="rightsreserved">Powered By  \"<b><big>Mr. Santosh Kadlag</big></b>\"</string>
+
+    <string name="marathi">
+        \"<big>रंगमंच</big>\" यही कलाकार की सही पहचान है|</string>
+
+    <string name="about">
+        \"Every passion needs a platform to overcome\"</string>
+
+    <string name="about_us">
+        \t\t\t Kalakaar’s motive is to aspire all those who are interested in Dance, Music and Acting to notify them all updates in the same platform by a single click.</string>
+
+    <string name="about_us_details">
+        \t\t\tKalakaar was established on 13th Sep 2018, it came into existence by Mr. Santosh Kadlag has materialized their dream by providing a platform for needy and talented students from all over the world. Kalakaar is for those who want to grow their passion in music, Dancing and Acting etc. Are still not finding any connectivity or online sources…</string>
+
+    <string name="about_us_details2">
+        \t\t\t Our purpose is to find your talent from small to big cities. This will be helpful for all students from all age groups who hails from different walks of life !!</string>
+
+
+    <string name="contact_us">Call : 9767212668/9921113740
+    </string>
+    <string name="contact_us_details">E-mail: thekalakaarguru@gmail.com</string>
+    <string name="contact_us_details2">Website: www.kalakaarguru.com</string>
+    <string name="privacy_policy">Privacy &amp; Policy</string>
+    <string name="privacy_content">To ensure the privacy of all the users our app strive
+        to keep the information shared with us private and confidential.
+        We are not responsible for any post shared on our website. You agree and accept any
+        modification, improvement or change in the app. The app contains third party advertising
+        or content, we are not responsible or do not endorse any product. Hereby you agreed to all
+        the terms and conditions.</string>
+
+    <string name="textviewtext">You have not created any post.
+        \n\t\t Please Click on below <big>Plus</big> Button for adding new posts</string>
+
+
+    <string name="admob_app_id">ca-app-pub-2759199713364209~1883644387</string>
+    <string name="banner_home_footer">ca-app-pub-2759199713364209/7176457376</string>
+    <string name="interstitial_full_screen">ca-app-pub-2759199713364209/5457139456</string>
+    <string name="rewarded_video">ca-app-pub-2759199713364209/1553429751</string>
+    <string name="admob_app_id2">ca-app-pub-6033450924958808~9411004981</string>
+    <string name="banner_home_footer2">ca-app-pub-6033450924958808/7340209569</string>
+    <string name="interstitial_full_screen2">ca-app-pub-6033450924958808/9332071796</string>
+
+
+</resources>

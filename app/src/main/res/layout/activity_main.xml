@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="25dp"
+        android:layout_above="@+id/cardview2"
+        android:background="#000000"
+        app:cardBackgroundColor="#c95a5a"
+        app:cardCornerRadius="19dp"
+        app:cardElevation="6dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Participant"
+            android:textAlignment="center"
+            android:textColor="#faf9f9"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_above="@+id/cardview3"
+        android:background="#000000"
+        app:cardBackgroundColor="#c95a5a"
+        app:cardCornerRadius="19dp"
+        app:cardElevation="6dp">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Add Post"
+            android:textAlignment="center"
+            android:textColor="#faf9f9"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="120dp"
+        android:background="#000000"
+        app:cardBackgroundColor="#c95a5a"
+        app:cardCornerRadius="19dp"
+        app:cardElevation="6dp">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Search for latest Add"
+            android:textAlignment="center"
+            android:textColor="#faf9f9"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview4"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#000000"
+        app:cardBackgroundColor="#c95a5a"
+        app:cardCornerRadius="19dp"
+        app:cardElevation="6dp">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Enter"
+            android:textAlignment="center"
+            android:textColor="#faf9f9"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </android.support.v7.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/adView"
+        android:background="@color/black"
+        app:srcCompat="@drawable/danceback" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_home_footer2"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textSize="15sp"
+        android:background="@android:color/transparent"
+        android:layout_alignParentTop="true"
+        android:text="Admin"
+        android:textColor="@color/White" />
+
+
+</RelativeLayout>
